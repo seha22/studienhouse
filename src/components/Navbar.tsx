@@ -8,6 +8,7 @@ const links = [
   { name: "Home", href: "#home" },
   { name: "Kursus", href: "#courses" },
   { name: "Cara kerja", href: "#cara-kerja" },
+  { name: "Testimoni", href: "#testimoni" },
   { name: "Tentang", href: "#tentang" },
 ];
 
@@ -40,7 +41,6 @@ export function Navbar() {
         </nav>
 
         <div className="flex items-center gap-5">
-          <button className="text-sm font-medium text-stone">Search</button>
           <div className="hidden md:block">
             <Button>Daftar kelas</Button>
           </div>
@@ -72,4 +72,3 @@ export function Navbar() {
     </header>
   );
 }
-

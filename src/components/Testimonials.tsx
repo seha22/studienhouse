@@ -9,7 +9,10 @@ export function Testimonials({ content }: Props) {
   if (!content.items || content.items.length === 0) return null;
 
   return (
-    <section className="relative overflow-hidden bg-gradient-to-br from-ivory via-white to-cloud py-16">
+    <section
+      id="testimoni"
+      className="relative overflow-hidden bg-gradient-to-br from-ivory via-white to-cloud py-16 scroll-mt-32"
+    >
       <div className="absolute left-8 top-10 h-32 w-32 rounded-full bg-mint blur-3xl" aria-hidden="true" />
       <div className="absolute bottom-0 right-0 h-40 w-40 rounded-full bg-peach blur-3xl" aria-hidden="true" />
 
