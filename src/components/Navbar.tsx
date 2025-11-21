@@ -5,10 +5,10 @@ import { Button } from "./Button";
 import { useAuth } from "./auth/AuthProvider";
 
 const links = [
-  { name: "Matematika", href: "#" },
-  { name: "Programming", href: "#" },
-  { name: "Cara kerja", href: "#" },
-  { name: "Tentang", href: "#" },
+  { name: "Home", href: "#home" },
+  { name: "Kursus", href: "#courses" },
+  { name: "Cara kerja", href: "#cara-kerja" },
+  { name: "Tentang", href: "#tentang" },
 ];
 
 export function Navbar() {
@@ -18,11 +18,11 @@ export function Navbar() {
     <header className="sticky top-0 z-30 bg-ivory/95 backdrop-blur-sm">
       <div className="container flex items-center justify-between py-5">
         <Link
-          href="#"
+          href="#home"
           className="flex items-center gap-2 text-lg font-semibold text-charcoal"
         >
           <div className="rounded-lg bg-orange px-2 py-1 text-sm text-charcoal">
-            StudienHouse
+            SH
           </div>
           StudienHouse
         </Link>

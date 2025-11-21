@@ -39,7 +39,7 @@ function shouldBypassOptimization(src: string) {
 
 export function PopularCourses({ content }: Props) {
   return (
-    <section className="container space-y-10 py-16">
+    <section id="courses" className="container space-y-10 py-16">
       <SectionHeader {...content.header} />
 
       <div className="grid gap-8 lg:grid-cols-2">

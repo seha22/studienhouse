@@ -8,7 +8,10 @@ type Props = {
 
 export function AboutSection({ content }: Props) {
   return (
-    <section className="container grid gap-12 pb-16 pt-10 lg:grid-cols-[minmax(0,1fr)_420px]">
+    <section
+      id="tentang"
+      className="container grid gap-12 pb-16 pt-10 lg:grid-cols-[minmax(0,1fr)_420px]"
+    >
       <div className="grid gap-6 md:grid-cols-2">
         {content.collage.map((image) => (
           <Image

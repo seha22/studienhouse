@@ -28,7 +28,7 @@ const icons: Record<BenefitIcon, JSX.Element> = {
 
 export function WhyChooseSection({ content }: Props) {
   return (
-    <section className="container grid gap-12 py-16 lg:grid-cols-2">
+    <section id="cara-kerja" className="container grid gap-12 py-16 lg:grid-cols-2">
       <div className="space-y-8">
         <SectionHeader {...content.header} />
         <div className="grid gap-5">
