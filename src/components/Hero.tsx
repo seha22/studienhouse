@@ -8,7 +8,10 @@ type Props = {
 
 export function Hero({ content }: Props) {
   return (
-    <section id="home" className="container grid gap-10 pb-16 pt-12 lg:grid-cols-[minmax(0,1fr)_520px]">
+    <section
+      id="home"
+      className="container grid scroll-mt-32 gap-10 pb-16 pt-12 lg:grid-cols-[minmax(0,1fr)_520px]"
+    >
       <div className="flex flex-col gap-8">
         <div className="flex items-center gap-3 text-sm font-semibold uppercase text-orange">
           <span className="h-px w-8 bg-orange"></span>

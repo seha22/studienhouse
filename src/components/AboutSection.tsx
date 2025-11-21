@@ -10,7 +10,7 @@ export function AboutSection({ content }: Props) {
   return (
     <section
       id="tentang"
-      className="container grid gap-12 pb-16 pt-10 lg:grid-cols-[minmax(0,1fr)_420px]"
+      className="container grid gap-12 pb-16 pt-10 scroll-mt-32 lg:grid-cols-[minmax(0,1fr)_420px]"
     >
       <div className="grid gap-6 md:grid-cols-2">
         {content.collage.map((image) => (
