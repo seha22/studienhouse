@@ -7,6 +7,7 @@ import { Newsletter } from "@/components/Newsletter";
 import { Testimonials } from "@/components/Testimonials";
 import { Footer } from "@/components/Footer";
 import { CallToAction } from "@/components/CallToAction";
+import { WhatsAppButton } from "@/components/WhatsAppButton";
 import { fetchLandingContent } from "@/lib/landing-data";
 
 export const revalidate = 0;
@@ -27,6 +28,7 @@ export default async function Page() {
         <CallToAction content={content.cta} />
       </main>
       <Footer />
+      <WhatsAppButton />
     </>
   );
 }
