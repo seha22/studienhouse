@@ -1,3 +1,4 @@
+import type { JSX } from "react";
 import Image from "next/image";
 import { BenefitIcon, WhyChooseContent } from "@/lib/landing-content";
 import { SectionHeader } from "./SectionHeader";

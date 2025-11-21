@@ -22,9 +22,9 @@ export function Navbar() {
           className="flex items-center gap-2 text-lg font-semibold text-charcoal"
         >
           <div className="rounded-lg bg-orange px-2 py-1 text-sm text-charcoal">
-            ED
+            StudienHouse
           </div>
-          Teach
+          StudienHouse
         </Link>
 
         <nav className="hidden items-center gap-8 text-sm font-medium text-stone md:flex">
@@ -72,3 +72,4 @@ export function Navbar() {
     </header>
   );
 }
+

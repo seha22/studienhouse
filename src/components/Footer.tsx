@@ -10,7 +10,7 @@ export function Footer() {
     <footer className="bg-cloud">
       <div className="container flex flex-col gap-10 py-12 lg:flex-row lg:items-start lg:justify-between">
         <div className="space-y-4">
-          <p className="text-lg font-semibold text-charcoal">ED Teach</p>
+          <p className="text-lg font-semibold text-charcoal">StudienHouse</p>
           <p className="max-w-xs text-sm text-muted">
             Kursus Matematika (SD, SMP, SMA) dan Programming dengan kelas
             online/offline, mentor aktif, dan dashboard progres siswa.
@@ -36,3 +36,4 @@ export function Footer() {
     </footer>
   );
 }
+
